@@ -24,11 +24,12 @@ throwFrisbee("Mary J. Blige","Papillon");
 function walkHome(dogName, dogBreed) {
    console.log(`Wake home with ${dogName} the ${dogBreed}`);
   }
-  walkHome("Santa","")
+  walkHome("Santa Paws "," Husky");
 
 function unleashDog(dogName, dogBreed) {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
   }
+  unleashDog("")
 const routine = [
     wakeDog,
     leashDog,
