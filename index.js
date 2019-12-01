@@ -16,11 +16,11 @@ leashDog("Boo Radley","Pibble");
 function walkToPark(dogName, dogBreed) {
    console.log(`Wake to park with ${dogName} the ${dogBreed}`);
   }
-walkToPark("Bunny","")
+walkToPark("Bunny","Labrador");
 function throwFrisbee(dogName, dogBreed) {
    console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   }
-
+throwFrisbee("")
 function walkHome(dogName, dogBreed) {
    console.log(`Wake home with ${dogName} the ${dogBreed}`);
   }
