@@ -1,10 +1,10 @@
-//My code 
+//My code goes here
   
 
 function wakeDog(dogName, dogBreed) {
-    let message = `Wake ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+   
+    console.log(`Wake ${dogName} the ${dogBreed}`);
+   
   }
 
 function leashDog(dogName, dogBreed) {
