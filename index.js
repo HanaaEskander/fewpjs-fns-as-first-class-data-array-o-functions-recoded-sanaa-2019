@@ -29,7 +29,7 @@ function walkHome(dogName, dogBreed) {
 function unleashDog(dogName, dogBreed) {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
   }
-  unleashDog("Lauren","")
+  unleashDog("Lauren","Golden Retriever");
 const routine = [
     wakeDog,
     leashDog,
