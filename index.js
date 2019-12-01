@@ -11,7 +11,7 @@ wakeDog("Xerox","Border Collie");
 function leashDog(dogName, dogBreed) {
     console.log(`Leash ${dogName} the ${dogBreed}`);
   }
-leashDog("")  
+leashDog("Boo Radley","")  
 
 function walkToPark(dogName, dogBreed) {
    console.log(`Wake to park with ${dogName} the ${dogBreed}`);
