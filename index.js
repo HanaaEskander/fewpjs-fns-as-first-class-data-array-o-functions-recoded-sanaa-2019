@@ -43,4 +43,3 @@ function exerciseDog(dogName, dogBreed){
     return dogArray;
 }
 
-// exerciseDog('Byron','poodle');
