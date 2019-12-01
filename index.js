@@ -8,33 +8,23 @@ function wakeDog(dogName, dogBreed) {
   }
 
 function leashDog(dogName, dogBreed) {
-    let message = `Leash ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+    console.log(`Leash ${dogName} the ${dogBreed}`);
   }
 
 function walkToPark(dogName, dogBreed) {
-    let message = `Walk to the park with ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+   console.log(`Wake to park with ${dogName} the ${dogBreed}`);
   }
 
 function throwFrisbee(dogName, dogBreed) {
-    let message = `Throw the frisbee for ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   }
 
 function walkHome(dogName, dogBreed) {
-    let message = `Walk home with ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+   console.log(`Wake home with ${dogName} the ${dogBreed}`);
   }
 
 function unleashDog(dogName, dogBreed) {
-    let message = `Unleash ${dogName} the ${dogBreed}`
-    console.log(message);
-    return message;
+  console.log(`Unleash ${dogName} the ${dogBreed}`);
   }
 const routine = [
     wakeDog,
