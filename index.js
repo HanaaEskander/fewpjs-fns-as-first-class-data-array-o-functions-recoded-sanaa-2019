@@ -20,7 +20,7 @@ walkToPark("Bunny","Labrador");
 function throwFrisbee(dogName, dogBreed) {
    console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   }
-throwFrisbee("")
+throwFrisbee("Mary J. Blige","")
 function walkHome(dogName, dogBreed) {
    console.log(`Wake home with ${dogName} the ${dogBreed}`);
   }
