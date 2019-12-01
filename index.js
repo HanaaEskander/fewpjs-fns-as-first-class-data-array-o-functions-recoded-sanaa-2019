@@ -36,10 +36,10 @@ const routine = [
 ];
 
 function exerciseDog(dogName, dogBreed){
-    const dogArray = [];
+    const dogs = [];
     for(let i = 0; i < routine.length; i++){
-        dogArray.push(routine[i](dogName,dogBreed));
+        dogs.push(routine[i](dogName,dogBreed));
     }
-    return dogArray;
+    return dogs;
 }
 
