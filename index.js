@@ -11,12 +11,12 @@ wakeDog("Xerox","Border Collie");
 function leashDog(dogName, dogBreed) {
     console.log(`Leash ${dogName} the ${dogBreed}`);
   }
-leashDog("Boo Radley","")  
+leashDog("Boo Radley","Pibble");  
 
 function walkToPark(dogName, dogBreed) {
    console.log(`Wake to park with ${dogName} the ${dogBreed}`);
   }
-
+walkToPark("")
 function throwFrisbee(dogName, dogBreed) {
    console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   }
