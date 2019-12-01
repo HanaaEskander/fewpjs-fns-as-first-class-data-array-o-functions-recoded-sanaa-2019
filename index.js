@@ -1,39 +1,33 @@
   
 
 function wakeDog(dogName, dogBreed) {
-    let message = `Wake ${dogName} the ${dogBreed}`;
-    console.log(message);
-  
+    let exercise = `Wake ${dogName} the ${dogBreed}`;
+    return exercise;
   }
  
 function leashDog(dogName, dogBreed) {
-    let message = `Leash ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+    let exercise = `Leash ${dogName} the ${dogBreed}`;
+    return exercise;
   }
  
 function walkToPark(dogName, dogBreed) {
-    let message = `Walk to the park with ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+    let exercise = `Walk to the park with ${dogName} the ${dogBreed}`;
+    return exercise;
   }
 
 function throwFrisbee(dogName, dogBreed) {
-    let message = `Throw the frisbee for ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+    let exercise = `Throw the frisbee for ${dogName} the ${dogBreed}`;
+    return exercise;
   }
 
 function walkHome(dogName, dogBreed) {
-    let message = `Walk home with ${dogName} the ${dogBreed}`;
-    console.log(message);
-    return message;
+    let exercise = `Walk home with ${dogName} the ${dogBreed}`;
+    return exercise;
   }
 
 function unleashDog(dogName, dogBreed) {
-    let message = `Unleash ${dogName} the ${dogBreed}`
-    console.log(message);
-    return message;
+    let exercise = `Unleash ${dogName} the ${dogBreed}`
+    return exercise;
   }
 const routine = [
     wakeDog,
@@ -45,9 +39,9 @@ const routine = [
 ];
 
 function exerciseDog(dogName, dogBreed){
-    const dogArray = [];
+    const dogs = [];
     for(let i = 0; i < routine.length; i++){
-        dogArray.push(routine[i](dogName,dogBreed));
+        dogs.push(routine[i](dogName,dogBreed));
     }
-    return dogArray;
+    return dogs;
 }
