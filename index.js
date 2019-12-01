@@ -1,35 +1,40 @@
-//My code goes here
   
-
+// let wakeDog = 
 function wakeDog(dogName, dogBreed) {
-   
-    console.log(`Wake ${dogName} the ${dogBreed}`);
-   
+    let message = `Wake ${dogName} the ${dogBreed}`;
+    console.log(message);
+    return message;
   }
-wakeDog("Xerox","Border Collie");
-
+// let leashDog = 
 function leashDog(dogName, dogBreed) {
-    console.log(`Leash ${dogName} the ${dogBreed}`);
+    let message = `Leash ${dogName} the ${dogBreed}`;
+    console.log(message);
+    return message;
   }
-leashDog("Boo Radley","Pibble");  
-
+// let walkToPark = 
 function walkToPark(dogName, dogBreed) {
-   console.log(`Wake to park with ${dogName} the ${dogBreed}`);
+    let message = `Walk to the park with ${dogName} the ${dogBreed}`;
+    console.log(message);
+    return message;
   }
-walkToPark("Bunny","Labrador");
+// let throwFrisbee = 
 function throwFrisbee(dogName, dogBreed) {
-   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+    let message = `Throw the frisbee for ${dogName} the ${dogBreed}`;
+    console.log(message);
+    return message;
   }
-throwFrisbee("Mary J. Blige","Papillon");
+// let walkHome = 
 function walkHome(dogName, dogBreed) {
-   console.log(`Wake home with ${dogName} the ${dogBreed}`);
+    let message = `Walk home with ${dogName} the ${dogBreed}`;
+    console.log(message);
+    return message;
   }
-  walkHome("Santa Paws "," Husky");
-
+// let unleashDog = 
 function unleashDog(dogName, dogBreed) {
-  console.log(`Unleash ${dogName} the ${dogBreed}`);
+    let message = `Unleash ${dogName} the ${dogBreed}`
+    console.log(message);
+    return message;
   }
-  unleashDog("Lauren","Golden Retriever");
 const routine = [
     wakeDog,
     leashDog,
@@ -40,10 +45,9 @@ const routine = [
 ];
 
 function exerciseDog(dogName, dogBreed){
-    const dogs = [];
+    const dogArray = [];
     for(let i = 0; i < routine.length; i++){
-        dogs.push(routine[i](dogName,dogBreed));
+        dogArray.push(routine[i](dogName,dogBreed));
     }
-    return dogs;
+    return dogArray;
 }
-
