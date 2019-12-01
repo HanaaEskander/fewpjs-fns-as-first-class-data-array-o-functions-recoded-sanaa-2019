@@ -24,7 +24,7 @@ throwFrisbee("Mary J. Blige","Papillon");
 function walkHome(dogName, dogBreed) {
    console.log(`Wake home with ${dogName} the ${dogBreed}`);
   }
-  walkHome("")
+  walkHome("Santa","")
 
 function unleashDog(dogName, dogBreed) {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
