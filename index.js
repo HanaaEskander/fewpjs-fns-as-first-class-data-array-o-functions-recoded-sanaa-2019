@@ -1,7 +1,7 @@
   
 
 function wakeDog(dogName, dogBreed) {
-    let exercise = `wake ${dogName} the ${dogBreed}`;
+    let exercise = `Wake ${dogName} the ${dogBreed}`;
     return exercise;
   }
  
